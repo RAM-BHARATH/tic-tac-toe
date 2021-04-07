@@ -1,0 +1,29 @@
+html{
+    text-align: center;
+    background-color: rgb(102, 160, 211);
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: rgb(27, 132, 223);
+    width: 100vw;
+    height: 100vh;
+}
+h1{
+    font-size: 3em;
+}
+.play-grid{
+    display:grid;
+    width:309px;
+    grid-template-columns: repeat(3,100px);
+    /* grid-template-rows:repeat(3,auto) ; */
+    column-gap:3px;
+    row-gap:3px ;
+    margin: 0 auto;
+    background-color: rgb(73, 124, 168);
+}
+.play-box{
+    background-color: aliceblue;
+    width: 100px;
+    height: 80px;
+} 
